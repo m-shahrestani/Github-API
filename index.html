@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Github API</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="script/script.js" defer></script>
+</head>
+<body>
+    <div class="mainRect">
+        <div class="showPanel">
+            <div class="upPanel">    
+                <img id="prof" src="img/prof.png" alt="Profile Picture">
+                <div class="userPanel">
+                    <p id="name"></p>
+                    <p id="blog"></p>
+                    <p id="location"></p>
+                    <p id="language"></p>
+                </div>
+            </div>
+            <div class="bioPanel">
+                <p1 id="bio"></p1>
+            </div>
+        </div>
+        <div class="form">
+            <form class="inputs"  name='input-form'>
+                <input id="input" type="text" placeholder="Github Username" name='username'>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div id="error">
+    </div>
+</body>
+</html>

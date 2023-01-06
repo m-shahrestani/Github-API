@@ -1,0 +1,161 @@
+/*Setting background image*/
+body {
+    justify-content: center;
+    background-image: url("../img/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    align-self: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*Setting position of mainrect in center*/
+.mainRect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(150, 200, 150, 0.4);
+    opacity: 0.8;
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+    max-height: 500px;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: green;
+    border-width: 1px;
+}
+
+/*Setting position of show in the left*/
+.showPanel {
+    background: rgba(200, 200, 150, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 60%;
+    margin-right: 2.5%;
+    align-items: center;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*Setting position of form in the right*/
+.form {
+    background: rgba(200, 200, 150, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    margin-left: 2.5%;
+    margin: 1em;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+}
+
+/* Inputs should have some distance from upper element and also same width. */
+.inputs {
+    text-align: center;
+    margin: 1em;
+    height: 50%;
+}
+
+/* Input should have some distance from upper element and also same width. */
+input {
+    width: 85%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+/* Button should have some distance from upper element and also same width. */
+button {
+    width: 85%;
+    margin-top: 40%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+/*Setting position of upPanel in the up of showPanel*/
+.upPanel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+/*Setting position of downPanel in the down of showPanel*/
+.bioPanel {
+    height: 30%;
+    bottom: 5%;
+    width: 90%;
+}
+
+/*Setting position of img in the up-left*/
+img {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 70%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 50%;
+    border-style: none;
+    opacity: 1;
+}
+
+/*Setting position of userPanel in the up-right*/
+.userPanel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+}
+
+/*Setting font size of p*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-left: 5%;
+    text-align: center;
+}
+
+/*Setting font size of p1*/
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    margin-left: 10%;
+    text-align: justify;
+}
+
+/* Error should be displayed in bottom left, red. */
+#error {
+    background-color: red;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    visibility: hidden;
+    border-radius: 10px;
+}
